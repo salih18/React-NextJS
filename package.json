@@ -4,9 +4,9 @@
   "description": "Project for MERN Stack - The Complete Guide",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
     "start": "next start",
-    "build": "gatsby build",
-    "dev": "gatsby develop"
+    "build": "next build"
   },
   "keywords": [],
   "author": "",
