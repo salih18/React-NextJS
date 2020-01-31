@@ -1,6 +1,5 @@
 {
   "name": "salih-react-shop",
-  "alias": "salih-react-shop.now.sh",
   "version": 2,
   "env": {
     "MONGO_SRV": "mongodb+srv://salih123:salih123456@reactreverse-jujyz.mongodb.net/test?retryWrites=true&w=majority",
