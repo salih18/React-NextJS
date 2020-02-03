@@ -1,6 +1,6 @@
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://salih-react-shop.salihsert18.now.sh'
+    ? 'https://shopping-app-nextjs.herokuapp.com'
     : 'http://localhost:3000';
 
 export default baseUrl;
