@@ -4,6 +4,9 @@ import jwt from 'jsonwebtoken';
 import Cart from '../../models/Cart';
 import Order from '../../models/Order';
 import calculateCartTotal from '../../utils/calculateCartTotal';
+import connectDb from '../../utils/connectDb';
+
+connectDb();
 
 const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 
